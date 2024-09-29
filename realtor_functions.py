@@ -28,3 +28,4 @@ class RealtorFunctions:
 
         conn.commit()
         conn.close()
+

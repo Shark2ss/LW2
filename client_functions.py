@@ -34,7 +34,6 @@ class ClientFunctions:
         cursor.execute('SELECT * FROM properties ORDER BY price DESC LIMIT 1')
         property = cursor.fetchone()
         conn.close()
-
         return property
 
     @staticmethod

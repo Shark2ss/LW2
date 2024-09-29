@@ -35,3 +35,4 @@ class ManagerFunctions:
 
         conn.commit()
         conn.close()
+
