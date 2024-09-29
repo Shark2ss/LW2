@@ -14,7 +14,7 @@ class RealEstateApp:
         self.root.geometry("800x600")
 
         # Load background image
-        self.bg_image = Image.open("background.png")
+        self.bg_image = Image.open("back.png")
         self.bg_image = self.bg_image.resize((800, 600))
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
 

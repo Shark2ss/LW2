@@ -1,6 +1,7 @@
 import sqlite3
 from client_functions import ClientFunctions
 
+
 class RealtorFunctions:
     @staticmethod
     def view_properties():
